@@ -1,8 +1,8 @@
-![](https://img.shields.io/badge/Todo-List-blueviolet)
+![](https://img.shields.io/badge/Todo-Review-blueviolet)
 
-# To-do 
+# To-do-review
 
-> To-do is a web app that helps to organize your day to day activities. It lists all the activities that you need to be completed and allows you to mark them as complete or not. It's a minimalistic website built using JavaScript ES6, Webpack and CSS.
+> To-do-review is a clone of the To-Do app. This was created to learn about giving and receiving feedback from code reviews
 
 ![screenshot](./src/images/screenshots/todo2.png)
 
@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/AnselemOdims/To-Do/issues).
+Feel free to check the [issues page](https://github.com/AnselemOdims/To-do-review/issues).
 
 ## Show your support
 
