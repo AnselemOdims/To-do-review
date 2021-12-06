@@ -9,8 +9,7 @@ export default class Helper {
     e.preventDefault();
     Utils.add();
     Utils.clear();
-    Helper.checkHandler();
-    Helper.handleFocus();
+    Helper.inputHelper();
   }
 
   /**
@@ -22,8 +21,7 @@ export default class Helper {
       const { description, index } = item;
       Utils.render(description, index);
       document.querySelector('#todo').focus();
-      Helper.checkHandler();
-      Helper.handleFocus();
+      Helper.inputHelper();
     });
     Utils.load(tasks);
     Utils.edit();
@@ -86,5 +84,13 @@ export default class Helper {
    */
   static checkHandler() {
     document.querySelectorAll('input[type="checkbox"]').forEach((item) => item.addEventListener('change', Helper.changeHandler));
+  }
+
+  /**
+   * @function inputHelper
+   */
+  static inputHelper() {
+    Helper.checkHandler();
+    Helper.handleFocus();
   }
 }
