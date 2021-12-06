@@ -47,9 +47,7 @@ export default class Utils {
   static clearAll() {
     Utils.delete(false);
     document.querySelectorAll('li.list input[type="checkbox"]').forEach((item) => {
-      if (item.classList.contains('d-none')) {
-        item.remove();
-      }
+      if (item.classList.contains('d-none')) item.remove();
     });
     document.querySelector('.todo-list ul').innerHTML = '';
     Helper.display();
